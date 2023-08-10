@@ -1,0 +1,53 @@
+{
+  "name": "Austin Ellingwood",
+  "occupation": "DevOps Engineer",
+  "location": "Los Angeles, CA",
+  "avatar": "avatar.jpg",
+  "pronouns": "he/him",
+  "email": "austinellingwood@gmail.com",
+  "username": "ellingwood",
+  "website": "https://ellingwood.dev",
+  "skills": [
+    "AWS",
+    "Kubernetes",
+    "Docker",
+    "Terraform",
+    "CI/CD",
+    "DevOps",
+    "Serverless",
+    "CloudFormation",
+    "Solution Architecture",
+    "React",
+    "Node.js"
+  ],
+  "languages": [
+    "Python",
+    "Golang",
+    "HCL",
+    "SQL",
+    "JavaScript/TypeScript",
+    "HTML"
+  ],
+  "social": [
+    {
+      "name": "Github",
+      "user": "@ellingwood",
+      "url": "https://github.com/ellingwood"
+    },
+    {
+      "name": "LinkedIn",
+      "user": "Austin Ellingwood",
+      "url": "https://www.linkedin.com/in/austin-ellingwood"
+    },
+    {
+      "name": "Instagram",
+      "user": "@elliingwood",
+      "url": "https://instagram.com/elliingwood"
+    },
+    {
+      "name": "Twitter",
+      "user": "@elliingwood",
+      "url": "https://twitter.com/elliingwood"
+    }
+  ]
+}

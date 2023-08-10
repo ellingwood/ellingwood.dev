@@ -1,0 +1,9 @@
+User-agent: GPTBot
+Disallow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://ellingwood.dev/sitemap.xml
+
+Host: https://ellingwood.dev
