@@ -17,16 +17,19 @@
     "Serverless",
     "CloudFormation",
     "Solution Architecture",
-    "React",
+    "Ansible",
+    "FastAPI",
     "Node.js"
   ],
   "languages": [
     "Python",
     "Golang",
+    "Bash",
     "HCL",
     "SQL",
     "JavaScript/TypeScript",
-    "HTML"
+    "HTML",
+    "CSS"
   ],
   "social": [
     {
