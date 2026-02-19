@@ -1,0 +1,47 @@
+baseURL: "https://ellingwood.dev"
+title: "ellingwood.dev"
+description: "DevOps engineer, infrastructure tinkerer, and builder of things."
+language: "en"
+theme: "default"
+
+author:
+  name: "Austin Ellingwood"
+  email: "austin@ellingwood.dev"
+  bio: "DevOps engineer building tools and infrastructure. Based in Los Angeles."
+  avatar: "/images/avatar.jpg"
+  social:
+    github: "ellingwood"
+    linkedin: "austin-ellingwood"
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Projects"
+      url: "/projects/"
+      weight: 2
+    - name: "Blog"
+      url: "/blog/"
+      weight: 3
+    - name: "About"
+      url: "/about/"
+      weight: 4
+
+taxonomies:
+  tag: tags
+  category: categories
+
+pagination:
+  pageSize: 10
+
+search:
+  enabled: true
+
+feeds:
+  rss: true
+  atom: true
+
+build:
+  minify: false
+  cleanUrls: true

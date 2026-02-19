@@ -1,0 +1,45 @@
+{{ define "main" }}
+<article class="max-w-3xl mx-auto px-4 py-8">
+  <header class="mb-8">
+    <h1 class="text-3xl font-bold mb-4">{{ .Title }}</h1>
+    {{ if .Description }}
+    <p class="text-lg text-muted-foreground mb-4">{{ .Description }}</p>
+    {{ end }}
+    {{ if .Params.tech }}
+    <div class="flex flex-wrap gap-2 mb-4">
+      {{ range .Params.tech }}
+      <span class="inline-flex items-center px-3 py-1 rounded-full text-sm bg-secondary text-secondary-foreground">{{ . }}</span>
+      {{ end }}
+    </div>
+    {{ end }}
+    <div class="flex gap-4">
+      {{ if .Params.github }}
+      <a href="{{ .Params.github }}" class="text-primary hover:underline" target="_blank" rel="noopener">GitHub</a>
+      {{ end }}
+      {{ if .Params.demo }}
+      <a href="{{ .Params.demo }}" class="text-primary hover:underline" target="_blank" rel="noopener">Live Demo</a>
+      {{ end }}
+    </div>
+  </header>
+  <div class="prose dark:prose-invert max-w-none">
+    {{ .Content }}
+  </div>
+  {{ if .ProjectPosts }}
+  <section class="mt-12 border-t border-border pt-8">
+    <h2 class="text-2xl font-bold mb-6">Related Posts</h2>
+    <ul class="space-y-4">
+      {{ range .ProjectPosts }}
+      <li>
+        <a href="{{ .URL }}" class="group block">
+          <span class="text-lg font-medium text-primary group-hover:underline">{{ .Title }}</span>
+          {{ if not .Date.IsZero }}
+          <span class="block text-sm text-muted-foreground">{{ .Date.Format "January 2, 2006" }}</span>
+          {{ end }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+</article>
+{{ end }}

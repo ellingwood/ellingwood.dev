@@ -1,0 +1,44 @@
+- category: "Languages"
+  items:
+    [
+      "Go",
+      "TypeScript",
+      "Python",
+      "SQL",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Bash",
+      "Rust",
+    ]
+- category: "Infrastructure"
+  items:
+    [
+      "AWS",
+      "Cloudflare",
+      "Docker",
+      "Terraform",
+      "Kubernetes",
+      "GitHub Actions",
+      "GCP",
+      "Helm",
+    ]
+- category: "Tools"
+  items:
+    [
+      "Git",
+      "Vim",
+      "Postgres",
+      "Redis",
+      "Linux",
+      "Nginx",
+      "Grafana",
+      "Prometheus",
+      "OpenTelemetry",
+      "DataDog",
+      "Claude Code",
+      "Notion",
+      "Obsidian",
+      "VS Code",
+      "Codex",
+    ]
