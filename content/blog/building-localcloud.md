@@ -1,7 +1,7 @@
 ---
 title: "Building LocalCloud: A Local Cloud Emulator in Go"
 date: 2026-02-18
-draft: true
+draft: false
 description: "How I built a wire-compatible AWS and GCP emulator as a single Go binary, and why local cloud development shouldn't require an internet connection."
 tags:
   - go
