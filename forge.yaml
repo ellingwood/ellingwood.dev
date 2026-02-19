@@ -45,3 +45,11 @@ feeds:
 build:
   minify: false
   cleanUrls: true
+
+deploy:
+  s3:
+    bucket: ellingwood.dev
+    region: us-east-1
+  cloudfront:
+    distributionId: E2B8B4II7OF520
+    urlRewrite: true
