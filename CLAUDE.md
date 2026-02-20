@@ -54,3 +54,7 @@ This project uses the Forge static site generator with an MCP server (`forge mcp
 Use `create_content` to create new blog posts, pages, and projects — it writes
 Markdown files with valid frontmatter. Use `build_site` to render the site.
 Use `query_content` and `get_page` to explore existing content.
+
+## Article Voice
+
+When writing articles, include a relevant hero image if possible, something the is generally technology related/relevant to the topic. If including media in the post, be sure to use the proper nested format for posts which is `blog/<example-post>/example-post.md` and `blog/<example-post>/example-image.png`. Blog posts should be informative but light unless specified. Include a hook at the top of the article and a quick "about the author" blurb below that with a call to contact me at my email with a link.

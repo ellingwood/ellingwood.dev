@@ -1,6 +1,6 @@
 ---
 title: "Building Forge: A Static Site Generator Designed for AI Workflows"
-date: 2026-02-19
+date: 2026-02-18
 draft: false
 description: "How I built a Hugo-inspired static site generator in Go with a built-in MCP server, and why the AI-native development loop changes how you think about tooling."
 tags:
@@ -10,6 +10,9 @@ tags:
   - open-source
   - claude-code
 project: forge
+cover:
+  image: "cover.png"
+  alt: "Forge Static Site Generator"
 series: "Building Enterprise at Home"
 ---
 

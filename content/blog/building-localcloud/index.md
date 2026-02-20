@@ -10,6 +10,9 @@ tags:
   - open-source
   - claude-code
 project: localcloud
+cover:
+  image: "cover.png"
+  alt: "Local AI Powered Cloud"
 series: "Building Enterprise at Home"
 ---
 
@@ -48,6 +51,12 @@ Compute isn't supported yet — Lambda, ECS, Cloud Functions, and Cloud Run are 
 All metadata lives in SQLite with WAL mode. Object data (S3, GCS) goes to the filesystem. ElastiCache runs an actual RESP protocol server so your Redis clients connect natively. The whole thing starts up in under a second.
 
 It also ships with a React admin UI that gives you dashboards for every service — you can browse S3 buckets, send SQS messages, inspect DynamoDB tables, view request logs, and manage organizations, all from your browser.
+
+![The LocalCloud admin dashboard showing service health status, resource counts, and all available services at a glance.](admin-dashboard.png)
+
+Each service gets its own detail view with stats, resource tables, and management actions. Here's the Object Storage page showing an S3 bucket:
+
+![The Object Storage service page with bucket listing, request metrics, and AWS/GCP provider tabs.](admin-s3.png)
 
 ## The Development Process
 

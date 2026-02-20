@@ -47,9 +47,17 @@ build:
   cleanUrls: true
 
 deploy:
+  # Used for local development with LocalCloud. Not intended for production use.
+  # endpoint: http://localhost:4566
+
+  # Specify the profile to use for deployment. This should match a profile in your AWS credentials file.
+  # profile: localcloud
+  profile: ellingwood-dev
   s3:
     bucket: ellingwood.dev
     region: us-east-1
   cloudfront:
+    # Distribution ID for the CloudFront distribution that serves the site. This is used to invalidate the cache after deployment.
+    # distributionId: E1fa02128 # LocalCloud distribution ID. Not used in production.
     distributionId: E2B8B4II7OF520
     urlRewrite: true
